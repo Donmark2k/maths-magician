@@ -273,10 +273,6 @@ I would like to appreciate [Microverse](https://www.microverse.org/) for providi
 
   - [Yes,]
 
-- **[Can you make the work to be responsive]**
-
-  - [yes]
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
