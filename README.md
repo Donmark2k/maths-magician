@@ -100,14 +100,7 @@ After you're finished please remove all the comments and instructions!
 ### Key Features <a name="key-features"></a>
 
 
-- **[Send and receive data from an API]**
-- **[Create a webpack]**
-- **[Use API documentation]**
-- **[Used Es6 import]**
- **[Understand and use JSON.]**
-- **[Make JavaScript code asynchronous.]**
-- **[Create a popup modal for reservation and comment button.]**
-- **[Implement a count function for likes, comment and reservation .]**
+- **[Create a git flow]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -118,7 +111,7 @@ After you're finished please remove all the comments and instructions!
 
 <!-- > Add a link to your deployed project. -->
 
-- [Live Demo Link]( https://donmark2k.github.io/Maths-Magicians/dist/)
+- [Live Demo Link]( https://donmark2k.github.io/maths-magicians/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -147,14 +140,14 @@ Example command:
 ### Setup
 
 Clone this repository to your desired folder:
- https://donmark2k.github.io/Maths-Magicians/.git
+ https://donmark2k.github.io/maths-magicians/.git
 
 
 Example commands:
 
 ```sh
   cd my-folder
-  git clone git@github.com:myaccount/Maths-Magicians_Project.git
+  git clone git@github.com:myaccount/maths-magicians_Project.git
 ```
 
 ### Install
