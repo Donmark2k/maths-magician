@@ -101,6 +101,8 @@ After you're finished please remove all the comments and instructions!
 
 
 - **[Create a git flow]**
+- **[Use functional Component]**
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
