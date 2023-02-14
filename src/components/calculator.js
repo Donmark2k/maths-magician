@@ -8,7 +8,7 @@ const Calculator = () => (
     <button type="button" className="clear">AC</button>
     <button type="button" className="plus-minus">+/-</button>
     <button type="button" className="percent">%</button>
-    <button type="button" className="divide operator">/</button>
+    <button type="button" className="divide operator">&#247;</button>
     <button type="button" className="number">7</button>
     <button type="button" className="number">8</button>
     <button type="button" className="number">9</button>
