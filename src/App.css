@@ -6,6 +6,7 @@ body {
   box-sizing: border-box;
   font-family: serif;
 }
+
 .calculator {
   margin: 100px auto;
   background-color: gray;
@@ -37,6 +38,6 @@ button {
 }
 
 .operator {
-  background-color: #006666;
-  border: 2px solid #006666;
+  background-color: #066;
+  border: 2px solid #066;
 }
