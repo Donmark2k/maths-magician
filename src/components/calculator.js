@@ -1,9 +1,30 @@
 import React from 'react';
 import calculate from '../logic/calculate';
-import operate from '../logic/operate';
+// import operate from '../logic/operate';
 
-const Calculator = () => (
-  <div className="calculator">
+class Calculator extends React.Component {
+  constructor(props){
+    super(props);
+    this.state = { 
+      total: 0,
+      next: '',
+      operation: '',
+    };
+    this.onClickHandler = this.onClickHandler.bind(this);
+  } 
+
+  onClickHandler(event) {
+    const targetValue = event.target.value;
+    this.setState((state) => calculate({
+      next: state.next,
+      total: state.total,
+      operation: state.operation,
+    }, targetValue));
+  }
+render () {
+  const { total, operation, next } = this.state;
+return (
+<div className="calculator">
     <div className="display">
       0
     </div>
@@ -28,6 +49,10 @@ const Calculator = () => (
     <button type="button" className="equal operator">=</button>
 
   </div>
-);
+)
+}
+
+}
+
 
 export default Calculator;
