@@ -102,6 +102,8 @@ After you're finished please remove all the comments and instructions!
 
 - **[Create a git flow]**
 - **[Use functional Component]**
+- **[Use state and props]**
+
 
 
 
