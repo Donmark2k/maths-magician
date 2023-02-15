@@ -1,7 +1,7 @@
 /* eslint-disable react/prefer-stateless-function */
 
 import './App.css';
-import Calculator from './components/Calculator';
+import Calculator from './components/Calculator.js';
 
 function App() {
   return (
