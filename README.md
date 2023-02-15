@@ -102,6 +102,8 @@ After you're finished please remove all the comments and instructions!
 
 - **[Create a git flow]**
 - **[Use functional Component]**
+- **[Use state and props]**
+
 
 
 
@@ -141,41 +143,10 @@ Example command:
 
 ### Setup
 
-Clone this repository to your desired folder:
- https://donmark2k.github.io/maths-magicians/.git
+- Clone this repository to your desired folder: https://donmark2k.github.io/maths-magicians/.git
+- Run npm install to install the dependencies.
+- Run npm start to start the app.
 
-
-Example commands:
-
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/maths-magicians_Project.git
-```
-
-### Install
-
-- Run npm install after cloning the repo
-
-install npx
-
-Example command:
-
-```sh
-  cd my-project
-  npx install
-```
---->
-
-### Usage
-
-
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
 
 ### Run tests
 
