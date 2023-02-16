@@ -14,6 +14,7 @@ const Calculator = () => {
   // Array destructuring
   const { total, operation, next } = state;
 
+  // This is the click function
   const onClickHandler = (event) => {
     const TargetValue = event.target.value;
     const updateState = calculate(state, TargetValue);
