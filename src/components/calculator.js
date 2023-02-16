@@ -10,7 +10,6 @@ const Calculator = () => {
 
   // Declaring the useState
 
-
   const [state, setState] = useState(initialState);
 
   // Array destructuring
