@@ -53,7 +53,6 @@ const Calculator = () => {
       <button onClick={onClickHandler} type="button" value="0" className="number zero">0</button>
       <button onClick={onClickHandler} type="button" value="." className="period">.</button>
       <button onClick={onClickHandler} type="button" value="=" className="equal operator">=</button>
-
     </div>
   );
 };
