@@ -22,7 +22,6 @@ const Calculator = () => {
     const updateState = calculate(state, TargetValue);
     setState(updateState);
   };
-render()
   return (
     <div className="calculator">
       <div className="display">
