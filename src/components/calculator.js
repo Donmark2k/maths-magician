@@ -8,10 +8,13 @@ const Calculator = () => {
     operation: '',
   };
 
-  // [state, setState]
+  // Declaring the useState
+
 
   const [state, setState] = useState(initialState);
+
   // Array destructuring
+
   const { total, operation, next } = state;
 
   // This is the click function
