@@ -94,11 +94,6 @@ After you're finished please remove all the comments and instructions!
 - **[Use routing method]**
 - **[Test the functionality]**
 
-
-
-
-
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
