@@ -1,4 +1,4 @@
-import calculate from '../logic/calculate'
+import calculate from '../logic/calculate';
 
 describe('Testing calculate.js', () => {
   test('should return 0', () => {
