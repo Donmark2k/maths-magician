@@ -104,6 +104,8 @@ After you're finished please remove all the comments and instructions!
 - **[Use functional Component]**
 - **[Use state and props]**
 - **[Use destructuring method]**
+- **[Use routing method]**
+
 
 
 

@@ -2,16 +2,17 @@
 
 body {
   box-sizing: border-box;
-  font-family: serif;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
 }
 
 .calculator {
   margin: 10px auto;
   background-color: gray;
   display: grid;
-  width: 400px;
+  width: 350px;
   border-radius: 2px;
-  height: 500px;
+  height: 450px;
   gap: 4px;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(6, 1fr);
@@ -44,7 +45,7 @@ nav {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  padding: 12px 24px;
+  padding: 8px 24px;
 }
 
 ul {
@@ -62,6 +63,7 @@ ul {
 
 .quoteMath {
   padding-top: 10%; 
+  text-align: center;
 }
 
 .calculatorContainer {
