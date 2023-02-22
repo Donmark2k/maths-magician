@@ -41,3 +41,37 @@ button {
   background-color: #066;
   border: 2px solid #066;
 }
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 24px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 18%;
+}
+
+.homeContainer {
+  text-align: left;
+  padding: 0 24px;
+}
+
+.quoteMath {
+  padding-top: 10%; 
+}
+
+.calculatorContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.calculatorH2 {
+  text-align: left;
+  margin-top: 100px;
+}

@@ -24,6 +24,8 @@ const Calculator = () => {
   };
 
   return (
+    <div className="calculatorContainer">
+    <h2 className="calculatorH2"> Let's do some maths</h2>
     <div className="calculator">
       <div className="display">
         {total}
@@ -52,6 +54,7 @@ const Calculator = () => {
       <button onClick={onClickHandler} type="button" value="0" className="number zero">0</button>
       <button onClick={onClickHandler} type="button" value="." className="period">.</button>
       <button onClick={onClickHandler} type="button" value="=" className="equal operator">=</button>
+    </div>
     </div>
   );
 };
