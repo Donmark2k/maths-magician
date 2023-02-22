@@ -1,19 +1,18 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body {
   box-sizing: border-box;
-  font-family: serif;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
 }
 
 .calculator {
-  margin: 100px auto;
+  margin: 10px auto;
   background-color: gray;
   display: grid;
-  width: 400px;
+  width: 350px;
   border-radius: 2px;
-  height: 500px;
+  height: 450px;
   gap: 4px;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(6, 1fr);
@@ -40,4 +39,40 @@ button {
 .operator {
   background-color: #066;
   border: 2px solid #066;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 8px 24px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 18%;
+}
+
+.homeContainer {
+  text-align: left;
+  padding: 0 24px;
+}
+
+.quoteMath {
+  padding-top: 10%;
+  text-align: center;
+}
+
+.calculatorContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.calculatorH2 {
+  text-align: left;
+  margin-top: 10px;
+  padding-left: 24px;
 }

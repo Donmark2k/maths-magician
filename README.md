@@ -81,19 +81,6 @@ After you're finished please remove all the comments and instructions!
 
   </ul>
 </details> 
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
 
 <!-- Features -->
 
@@ -104,6 +91,8 @@ After you're finished please remove all the comments and instructions!
 - **[Use functional Component]**
 - **[Use state and props]**
 - **[Use destructuring method]**
+- **[Use routing method]**
+
 
 
 
@@ -116,7 +105,7 @@ After you're finished please remove all the comments and instructions!
 
 <!-- > Add a link to your deployed project. -->
 
-- [Live Demo Link]( https://donmark2k.github.io/maths-magicians/dist/)
+- Live demo link will appear when ready
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
