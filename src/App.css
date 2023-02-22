@@ -8,7 +8,7 @@ body {
 }
 
 .calculator {
-  margin: 100px auto;
+  margin: 10px auto;
   background-color: gray;
   display: grid;
   width: 400px;
@@ -73,5 +73,6 @@ ul {
 
 .calculatorH2 {
   text-align: left;
-  margin-top: 100px;
+  margin-top: 10px;
+  padding-left: 24px;
 }
