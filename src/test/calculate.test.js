@@ -1,7 +1,7 @@
 import calculate from '../logic/calculate'
 
 describe('Testing calculate.js', () => {
-  test('should return null', () => {
+  test('should return 0', () => {
     const obj = {
       total: 3,
       next: 6,
@@ -9,7 +9,7 @@ describe('Testing calculate.js', () => {
     };
     const buttonName = 'AC';
     expect(calculate(obj, buttonName)).toEqual({
-      total: null,
+      total: 0,
       next: null,
       operation: null,
     });
@@ -29,7 +29,7 @@ describe('Testing calculate.js', () => {
     });
   });
 
-  test('should return the substraction of numbers', () => {
+  test('should return the subtraction of numbers', () => {
     const obj = {
       total: 5,
       next: 8,
