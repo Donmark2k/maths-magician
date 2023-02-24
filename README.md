@@ -93,6 +93,8 @@ After you're finished please remove all the comments and instructions!
 - **[Use destructuring method]**
 - **[Use routing method]**
 - **[Test the functionality]**
+- **[Display quotes from API]**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
