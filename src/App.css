@@ -6,6 +6,13 @@ body {
   font-weight: bold;
 }
 
+h1 {
+  font-size: 180%;
+}
+
+a {
+  text-decoration: none;
+}
 .calculator {
   margin: 10px auto;
   background-color: gray;
@@ -53,7 +60,7 @@ ul {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 18%;
+  width: 28%;
 }
 
 .homeContainer {
@@ -105,3 +112,24 @@ ul {
 .quoteBox {
   text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+  h1 {
+    text-align: center;
+  }
+  nav {
+    display: block;
+    justify-content: center;
+    flex-direction: row;
+    padding: 8px 24px;
+  }
+  
+  ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 250px;
+    margin: 0 auto;
+  }
+  }
