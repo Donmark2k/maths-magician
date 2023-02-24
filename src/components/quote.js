@@ -28,10 +28,10 @@ useEffect(() => {
 
 return ( 
 <>
-  <div className="quoteBox"></div>
-  {quote}
-  {author}
-  <button onClick={quoteAPI}>GIMME QUOTES </button>
+  <div className="quoteBox">{quote}</div>
+  <p className="quoteAuthor" >{author} </p>
+  
+  <button className="quoteBtn" onClick={quoteAPI}>GIMME QUOTES </button>
   </>
 )
   
