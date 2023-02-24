@@ -13,7 +13,7 @@ const Home = () => (
         math concepts such as addition, subtraction, multiplication, division, and more.
       </p>
       {' '}
-      <p>
+      <p className="homeP">
         The games on Maths Magician are designed to be both engaging and educational,
         providing students with immediate feedback on their progress and encouraging them
         to continue practicing their math skills. The website is designed for children in grades K-8

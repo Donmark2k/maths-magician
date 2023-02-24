@@ -4,6 +4,7 @@ body {
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
+  background-color: #b3b3cc;
 }
 
 h1 {
@@ -12,6 +13,8 @@ h1 {
 
 a {
   text-decoration: none;
+  color: #fff;
+
 }
 .calculator {
   margin: 10px auto;
@@ -52,7 +55,8 @@ nav {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  padding: 8px 24px;
+  padding: 2px 24px;
+  background-color: #666699;
 }
 
 ul {
@@ -61,6 +65,7 @@ ul {
   flex-direction: row;
   justify-content: space-between;
   width: 28%;
+  margin: auto 0;
 }
 
 .homeContainer {
@@ -73,7 +78,7 @@ ul {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 2fr));
   width: 80%;
-  margin: 0 auto;
+  margin: 24px auto;
 }
 
 .calculatorH2 {
@@ -82,6 +87,9 @@ ul {
   padding-left: 24px;
 }
 
+.homeP{
+  font-weight: 450;
+}
 .quoteBtn {
   width: auto;
   padding: 0.801rem 1.188rem 0.886rem 1.375rem;
