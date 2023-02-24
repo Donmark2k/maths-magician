@@ -101,10 +101,7 @@ After you're finished please remove all the comments and instructions!
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-
-<!-- > Add a link to your deployed project. -->
-
-- Live demo link will appear when ready
+- Here is a [Live Demo Link](https://maths-tg48.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
