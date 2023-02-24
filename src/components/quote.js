@@ -1,12 +1,40 @@
-import axios from "axios"
-const Quote = () => (
-const [quote, setQuote] = useState("")
+import axios from 'axios';
+import React, {useEffect, useState} from 'react';
 
+const Quote = () => {
+const [quote, setQuote] = useState("");
+const [author , setAuthor] = useState ("");
+const quoteAPI = async () => {
+  let arrayQuotes = [] ;
+  try {
+    const data = await axios.get("https://api.quotable.io/random");
+    arrayQuotes = data.data;
+  } catch (error) {
+    console.log(error)
+  }
 
-  <p className="quoteMath">
-    Mathematics is not about numbers, equations, computations or algorithms: it
-    is about understanding. - William Paul, Thurston
-  </p>
-);
+  try {
+    setQuote(arrayQuotes.content)
+    setAuthor(arrayQuotes.author)
+  }catch (error) {
+    console.log(error)
+  }
+} 
+
+useEffect(() => {
+  quoteAPI();
+  
+}, [])
+
+return ( 
+<>
+  <div className="quoteBox"></div>
+  {quote}
+  {author}
+  <button onClick={quoteAPI}>GIMME QUOTES </button>
+  </>
+)
+  
+};
 
 export default Quote;
