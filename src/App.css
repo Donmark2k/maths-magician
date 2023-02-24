@@ -78,7 +78,7 @@ ul {
 }
 
 .quoteBtn {
-  width: 150px;
+  width: auto;
   padding: 0.801rem 1.188rem 0.886rem 1.375rem;
   border-radius: 3px;
   border: none;
@@ -88,11 +88,20 @@ ul {
   font-size: 0.813rem;
   font-weight: bold;
   font-family: 'Roboto Slab', sans-serif;
+  margin: 12px auto;
+  display: block;
 }
 .quoteContainer {
   width : 80%;
   display: block;
-  margin: 24px auto;
+  margin: 6% auto;
   justify-content: center;
   align-items: center;
+}
+.quoteAuthor {
+  text-align: center;
+}
+
+.quoteBox {
+  text-align: center;
 }

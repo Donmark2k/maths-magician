@@ -6,15 +6,11 @@ const Quote = () => {
   const [author, setAuthor] = useState('');
   const quoteAPI = async () => {
     let arrayQuotes = [];
-    try {
-      const data = await axios.get('https://api.quotable.io/random');
-      arrayQuotes = data.data;
-    } catch (error) {}
 
-    try {
-      setQuote(arrayQuotes.content);
-      setAuthor(arrayQuotes.author);
-    } catch (error) {}
+    const data = await axios.get('https://api.quotable.io/random');
+    arrayQuotes = data.data;
+    setQuote(arrayQuotes.content);
+    setAuthor(arrayQuotes.author);
   };
 
   useEffect(() => {
@@ -25,6 +21,8 @@ const Quote = () => {
     <div className="quoteContainer">
       <div className="quoteBox">{quote}</div>
       <p className="quoteAuthor">
+        {' '}
+        by-
         {author}
       </p>
 
