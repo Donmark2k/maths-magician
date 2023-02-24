@@ -74,8 +74,10 @@ ul {
 }
 
 .calculatorContainer {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 2fr));
+  width: 80%;
+  margin: 0 auto;
 }
 
 .calculatorH2 {
@@ -114,7 +116,7 @@ ul {
 }
 
 @media screen and (max-width: 768px) {
-  h1 {
+  h1,h2 {
     text-align: center;
   }
   nav {
@@ -132,4 +134,13 @@ ul {
     width: 250px;
     margin: 0 auto;
   }
+  .calculatorH2 {
+    text-align: center;
+  }
+  .calculator {
+    
+    width: 95%;
+    height: 350px;
+  }
+  
   }
