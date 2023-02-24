@@ -76,3 +76,16 @@ ul {
   margin-top: 10px;
   padding-left: 24px;
 }
+
+.quoteBtn {
+  width: 150px;
+  padding: 0.801rem 1.188rem 0.886rem 1.375rem;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  background-color: #0290FF;
+  color: #fff;
+  font-size: 0.813rem;
+  font-weight: bold;
+  font-family: 'Roboto Slab', sans-serif;
+}
