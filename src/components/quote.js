@@ -26,7 +26,7 @@ const Quote = () => {
         {author}
       </p>
 
-      <button type="button" className="quoteBtn" onClick={quoteAPI}>GIMME QUOTES </button>
+      <button type="button" className="quoteBtn" onClick={quoteAPI}>SEE QUOTES </button>
     </div>
   );
 };
