@@ -4,11 +4,21 @@ body {
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
+  background-color: #b3b3cc;
+}
+
+h1 {
+  font-size: 180%;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
 }
 
 .calculator {
   margin: 10px auto;
-  background-color: gray;
+  background-color: #b3b3cc;
   display: grid;
   width: 350px;
   border-radius: 2px;
@@ -25,6 +35,7 @@ body {
   color: white;
   padding: 18px;
   background-color: rgba(0, 38, 153, 0.5);
+  border-radius: 8px;
 }
 
 .zero {
@@ -34,6 +45,8 @@ body {
 button {
   color: black;
   font-size: 24px;
+  border-radius: 8px;
+  border: 2px solid #066;
 }
 
 .operator {
@@ -45,7 +58,9 @@ nav {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  padding: 8px 24px;
+  padding: 2px 24px;
+  background-color: #669;
+  border-bottom: 4px solid #113f67;
 }
 
 ul {
@@ -53,7 +68,8 @@ ul {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 18%;
+  width: 28%;
+  margin: auto 0;
 }
 
 .homeContainer {
@@ -61,18 +77,82 @@ ul {
   padding: 0 24px;
 }
 
-.quoteMath {
-  padding-top: 10%;
-  text-align: center;
-}
-
 .calculatorContainer {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 2fr));
+  width: 80%;
+  margin: 24px auto;
 }
 
 .calculatorH2 {
   text-align: left;
   margin-top: 10px;
   padding-left: 24px;
+}
+
+.homeP {
+  font-weight: 450;
+}
+
+.quoteBtn {
+  width: auto;
+  padding: 0.801rem 1.188rem 0.886rem 1.375rem;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  background-color: #0290ff;
+  color: #fff;
+  font-size: 0.813rem;
+  font-weight: bold;
+  font-family: 'Roboto Slab', sans-serif;
+  margin: 12px auto;
+  display: block;
+}
+
+.quoteContainer {
+  width: 80%;
+  display: block;
+  margin: 6% auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.quoteAuthor {
+  text-align: center;
+}
+
+.quoteBox {
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  h1,
+  h2 {
+    text-align: center;
+  }
+
+  nav {
+    display: block;
+    justify-content: center;
+    flex-direction: row;
+    padding: 8px 24px;
+  }
+
+  ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 250px;
+    margin: 0 auto;
+  }
+
+  .calculatorH2 {
+    text-align: center;
+  }
+
+  .calculator {
+    width: 95%;
+    height: 350px;
+  }
 }
