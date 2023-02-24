@@ -11,7 +11,9 @@ const Home = () => (
         children to practice and improve their math skills. The website offers a variety
         of math games and activities designed to help students learn and understand basic
         math concepts such as addition, subtraction, multiplication, division, and more.
-        <br />
+      </p>
+      {' '}
+      <p>
         The games on Maths Magician are designed to be both engaging and educational,
         providing students with immediate feedback on their progress and encouraging them
         to continue practicing their math skills. The website is designed for children in grades K-8

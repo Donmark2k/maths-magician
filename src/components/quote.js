@@ -6,7 +6,7 @@ const Quote = () => {
   const [author, setAuthor] = useState('');
   const quoteAPI = async () => {
     let arrayQuotes = [];
-
+    //  'https://v2.jokeapi.dev/joke/Programming?blacklistFlags=nsfw,political,racist,explicit&type=twopart'
     const data = await axios.get('https://api.quotable.io/random');
     arrayQuotes = data.data;
     setQuote(arrayQuotes.content);
