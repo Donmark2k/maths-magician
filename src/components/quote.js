@@ -1,4 +1,8 @@
+import axios from "axios"
 const Quote = () => (
+const [quote, setQuote] = useState("")
+
+
   <p className="quoteMath">
     Mathematics is not about numbers, equations, computations or algorithms: it
     is about understanding. - William Paul, Thurston
