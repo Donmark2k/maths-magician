@@ -9,16 +9,12 @@ const Quote = () => {
     try {
       const data = await axios.get('https://api.quotable.io/random');
       arrayQuotes = data.data;
-    } catch (error) {
-      console.log(error);
-    }
+    } catch (error) {}
 
     try {
       setQuote(arrayQuotes.content);
       setAuthor(arrayQuotes.author);
-    } catch (error) {
-      console.log(error);
-    }
+    } catch (error) {}
   };
 
   useEffect(() => {
@@ -26,15 +22,14 @@ const Quote = () => {
   }, []);
 
   return (
-    <>
+    <div className="quoteContainer">
       <div className="quoteBox">{quote}</div>
       <p className="quoteAuthor">
         {author}
-        {' '}
       </p>
 
-      <button className="quoteBtn" onClick={quoteAPI}>GIMME QUOTES </button>
-    </>
+      <button type="button" className="quoteBtn" onClick={quoteAPI}>GIMME QUOTES </button>
+    </div>
   );
 };
 

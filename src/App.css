@@ -89,3 +89,10 @@ ul {
   font-weight: bold;
   font-family: 'Roboto Slab', sans-serif;
 }
+.quoteContainer {
+  width : 80%;
+  display: block;
+  margin: 24px auto;
+  justify-content: center;
+  align-items: center;
+}
