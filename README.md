@@ -145,18 +145,8 @@ To run the project, execute the following command:
 ### Deployment
 
 You can deploy this project using:
-- Github pages
-
-Github pages
-
-<p>follow <a href="https://www.w3schools.com/git/git_remote_pages.asp?remote=github">these steps</a> for example</p>
-<!--
-Example:
-
-```sh
-
-```
- -->
+- Netlify
+<p>follow <a href="https://www.netlify.com/blog/2016/09/29/a-step-by-step-guide-deploying-on-netlify/">these steps</a> for example on how to deploy on netlify</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -178,7 +168,7 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 - I will add time and date below the nav bar
-
+- I will add a footer
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -188,7 +178,7 @@ Example:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Donmark2k/maths-magicians/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
