@@ -68,32 +68,18 @@ After you're finished please remove all the comments and instructions!
 ## 🛠 Built With <a name="built-with"></a>
 - React
 
-### Tech Stack <a name="tech-stack"></a>
-
-
- <details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="#">Index.html</a></li>
-        <li><a href="#">main.js</a></li>
-            <li><a href="#">Style.css</a></li>
-
-
-  </ul>
-</details> 
-
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
 
-- **[Create a git flow]**
-- **[Use functional Component]**
-- **[Use state and props]**
-- **[Use destructuring method]**
-- **[Use routing method]**
-- **[Test the functionality]**
-- **[Display quotes from API]**
+-  Create a git flow
+-  Use functional Component
+-  Use state and props
+-  Use destructuring method
+-  Use routing method
+-  Test the functionality
+-  Display quotes from API
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -101,7 +87,11 @@ After you're finished please remove all the comments and instructions!
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-- Here is a [Live Demo Link](https://maths-tg48.onrender.com/)
+- Here is a [Live Demo Link](mathth.netlify.app)
+
+## Project Screenshots
+
+![Home page](./src/asset/screenshot.png)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
