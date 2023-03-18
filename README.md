@@ -206,7 +206,7 @@ I would like to appreciate [Microverse](https://www.microverse.org/) for providi
 
 - **[Are you sure that you are owner of this work]**
 
-  - [Yes,]
+  - [Yes]
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
