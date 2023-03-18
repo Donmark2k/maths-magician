@@ -132,18 +132,15 @@ To run the project, execute the following command:
 
 ### Run tests
 
-To run tests, run the following command:
-- Run npx eslint . for JS check
-- Run npx eslint . --fix to fix JS errors if found
-- Run npx stylelint "**/*.{css,scss}" for CSS check
-- Run npx stylelint "**/*.{css,scss}" --fix to fix CSS errors if found.
-<!--
-Example command:
+- `npx stylelint "/*.{css,scss}"**`: To test css code
+- `npx stylelint "**/*.{css,scss}" --fix`: To fix some CSS errors if found.
+- `npx eslint .` : To test Eslint Report
+- `npx eslint . --fix`: To fix some JS errors if found
 
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
+### To test the application
+
+- `npm install --save-dev jest`
+- `npm test`
 
 ### Deployment
 
