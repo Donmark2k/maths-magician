@@ -68,32 +68,18 @@ After you're finished please remove all the comments and instructions!
 ## 🛠 Built With <a name="built-with"></a>
 - React
 
-### Tech Stack <a name="tech-stack"></a>
-
-
- <details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="#">Index.html</a></li>
-        <li><a href="#">main.js</a></li>
-            <li><a href="#">Style.css</a></li>
-
-
-  </ul>
-</details> 
-
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
 
-- **[Create a git flow]**
-- **[Use functional Component]**
-- **[Use state and props]**
-- **[Use destructuring method]**
-- **[Use routing method]**
-- **[Test the functionality]**
-- **[Display quotes from API]**
+-  Create a git flow
+-  Use functional Component
+-  Use state and props
+-  Use destructuring method
+-  Use routing method
+-  Test the functionality
+-  Display quotes from API
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -101,7 +87,11 @@ After you're finished please remove all the comments and instructions!
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-- Here is a [Live Demo Link](https://precious-lolly-49aafb.netlify.app)
+- Here is a [Live Demo Link](mathth.netlify.app)
+
+## Project Screenshots
+
+![Home page](./src/asset/screenshot.png)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -109,61 +99,54 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-
-To get a local copy up and running, follow these steps.
-
 ### Prerequisites
 
-- In order to run this project you need:
-
+In order to run this project you need:
 - [git](https://git-scm.com/downloads): A tool for managing source code
 - [Visual Studio Code](https://code.visualstudio.com/): A source code editor
-- [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer): A simple web server utility for Visual Studio Code
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
+- Have a working and updated browser
+- Have a local version control like git installed on your computer
+- Have an account and sign in on GitHub, as online/remote version control system
+- Basic knowledge in JS and React-JS
 
 ### Setup
+To get a local copy of this project up and running, follow these steps.
+- copy [this link](https://github.com/Donmark2k/maths-magicians.git).
+- get to the directory that you want to clone the repository.
+- open the command prompt in this directory.
+- write `git clone github.com/Donmark2k/maths-magicians.git`
+- go to the repository folder in your command prompt cd maths-magicians
+- write `code .` to open the project in visual studio code.
 
-- Clone this repository to your desired folder: https://donmark2k.github.io/maths-magicians/.git
-- Run npm install to install the dependencies.
-- Run npm start to start the app.
+### Install
 
+To install this project in your local machine use
+
+- Goto the terminal in Visual Studio code by pressing `ctrl '`
+- Install the project dependencies by typing: `npm install` in the terminal.
+
+### Usage
+To run the project, execute the following command:
+
+- In visual studio terminal type `npm start` then the project will open on your browser "http://localhost:3000".
 
 ### Run tests
 
-To run tests, run the following command:
-- Run npx eslint . for JS check
-- Run npx eslint . --fix to fix JS errors if found
-- Run npx stylelint "**/*.{css,scss}" for CSS check
-- Run npx stylelint "**/*.{css,scss}" --fix to fix CSS errors if found.
-<!--
-Example command:
+- `npx stylelint "/*.{css,scss}"**`: To test css code
+- `npx stylelint "**/*.{css,scss}" --fix`: To fix some CSS errors if found.
+- `npx eslint .` : To test Eslint Report
+- `npx eslint . --fix`: To fix some JS errors if found
 
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
+### To test the application
+
+- `npm install --save-dev jest`
+- `npm test`
 
 ### Deployment
 
 You can deploy this project using:
-- Github pages
-
-Github pages
-
-<p>follow <a href="https://www.w3schools.com/git/git_remote_pages.asp?remote=github">these steps</a> for example</p>
-<!--
-Example:
-
-```sh
-
-```
- -->
+- Netlify
+<p>follow <a href="https://www.netlify.com/blog/2016/09/29/a-step-by-step-guide-deploying-on-netlify/">these steps</a> for example on how to deploy on netlify</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -185,7 +168,7 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 - I will add time and date below the nav bar
-
+- I will add a footer
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -195,7 +178,7 @@ Example:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Donmark2k/maths-magicians/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -223,7 +206,7 @@ I would like to appreciate [Microverse](https://www.microverse.org/) for providi
 
 - **[Are you sure that you are owner of this work]**
 
-  - [Yes,]
+  - [Yes]
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
