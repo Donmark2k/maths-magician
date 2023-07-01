@@ -87,7 +87,7 @@ After you're finished please remove all the comments and instructions!
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-- Here is a [Live Demo Link](mathth.netlify.app)
+- Here is a [Live Demo Link](https://mathth.netlify.app/)
 
 ## Project Screenshots
 
